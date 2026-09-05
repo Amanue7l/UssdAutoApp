@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">USSD Auto</string>
-    <string name="accessibility_service_description">This service is required to automatically fill the PIN and confirmation step for USSD transactions. It only works while you are sending money and does not store your PIN.</string>
-    <string name="pin_hint">Enter your PIN</string>
-    <string name="send_button">Send Money</string>
+    <string name="accessibility_service_description">This service automatically confirms the transaction with 1 after you enter your PIN. It does not see or store your PIN.</string>
+    <string name="send_button">Start Transaction</string>
     <string name="enable_accessibility">Enable Accessibility Service</string>
     <string name="permission_needed">Phone permission is required to dial USSD</string>
     <string name="accessibility_needed">Please enable the Accessibility Service for this app in Settings</string>
-    <string name="ussd_code_label">USSD Code (fixed)</string>
-    <string name="instructions">1. Enter your mobile money PIN below\n2. Enable Accessibility Service (button below)\n3. Grant Phone permission\n4. Tap Send Money\n\nThe app will dial the code, inject your PIN, then automatically reply with 1 on confirmation.</string>
+    <string name="ussd_code_label">USSD Code</string>
+    <string name="instructions">How it works:\n\n1. Enable Accessibility Service (button below)\n2. Grant Phone permission\n3. Tap \"Start Transaction\"\n4. When the PIN screen appears → type your PIN yourself\n5. The app will automatically enter 1 to confirm</string>
 </resources>
