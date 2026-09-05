@@ -7,5 +7,5 @@
     <string name="permission_needed">Phone permission is required to dial USSD</string>
     <string name="accessibility_needed">Please enable the Accessibility Service for this app in Settings</string>
     <string name="ussd_code_label">USSD Code</string>
-    <string name="instructions">How it works:\n\n1. Enable Accessibility Service (button below)\n2. Grant Phone permission\n3. Tap \"Start Transaction\"\n4. When the PIN screen appears → type your PIN yourself\n5. The app will automatically enter 1 to confirm</string>
+    <string name="instructions">How it works:\n\n1. Enable Accessibility Service\n2. Grant Phone permission\n3. Tap \"Start Transaction\"\n4. Type your PIN on the USSD screen\n5. The app automatically enters 1 to confirm</string>
 </resources>
